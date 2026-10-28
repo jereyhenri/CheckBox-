@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Checkbox</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<h1>  Store Name  Home    Contact </h1> 
+
+
+<body>
+   
+    <p id="text" style="display: none;">WARNINGCaps Lock is on!</p>
+<script>
+    var input = document.getElementById("myInput");
+    var text = localStorage.getItem("text");
+    input.addEventListener("keyup",function(event){
+        if(event.getModifierState("CapsLock")){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    });
+</script>
+
+<div class ="checkbox1">
+     <div id="checkbox1">
+<label for="myCheckbox1"></label>
+<input type="checkbox" id="myCheckbox1" onclick="myFunction()">
+
+<script> function myFunction() {var checkbox = document.getElementById("myCheckbox1");
+    if(checkbox.checked== true){
+        text.style.display = "block";
+    } else {
+        text.style.display = "none";
+    }
+ } </script>
+ <img src="Burger.jpg">
+ <input type="text" id="myInput" placeholder="">
+ 
+</div>
+    </div>
+<div class="checkbox2"> 
+<label for="myCheckbox2"></label>
+<input type="checkbox" id="myCheckbox2" onclick="myFunction2()">
+
+<script> function myFunction2() {var checkbox = document.getElementById("myCheckbox2");
+    if(checkbox.checked== true){
+        text.style.display = "block";
+    } else {
+        text.style.display = "none";
+    }
+ } </script>
+
+ <img src="Pizza.jpg">
+ <input type="text" id="myInput" placeholder="">
+ 
+</div>
+
+<div class="checkbox3"> 
+<label for="myCheckbox3"></label>
+<input type="checkbox" id="myCheckbox3" onclick="myFunction3()">
+
+<script> function myFunction3() {var checkbox = document.getElementById("myCheckbox3");
+    if(checkbox.checked== true){
+        text.style.display = "block";
+    } else {
+        text.style.display = "none";
+    }
+ } </script>
+
+ <img src="Fries.jpg">
+ <input type="text" id="myInput" placeholder="">
+</div>
+
+<div></div>
+
+
+
+</body>
+</html>
