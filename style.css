@@ -1,0 +1,60 @@
+h1{
+    color: #000000;
+    text-align: left;
+    font-family: 'Times New Roman', serif;
+    font-size: 66px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color: #2a4969;
+}
+
+body {
+    background-color: #f3f9fffe;
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    input[type="text"] {
+        margin-right: 100px;
+    }
+    
+}
+
+.checkbox2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+
+     input[type="text"] {
+        margin-right: 20px;
+    }
+}
+.checkbox3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+     input[type="text"] {
+        margin-right: 50px;
+    }
+
+}
+
+img{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
